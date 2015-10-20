@@ -22,7 +22,7 @@ import UIKit
     }
     
     required init(coder: NSCoder) {
-        super.init(coder: coder)
+        super.init(coder: coder)!
         setupView()
     }
     
